@@ -72,6 +72,12 @@
 #define Fql_ACC(T)                           Fql_acc T ; int overflow_POOL ;
 #define Fql_ACC_ZERO(A)                      { A = Fql_acc_zero ; overflow_POOL = 0 ; }
 
+/*
+  Assuming random matrices, there is a very small probability of errors
+  in matrix operations, since we employed a Monte Carlo algorithm.
+  To avoid error, set overflow_DELTA = QRUOV_L+1.
+*/
+
 #  if (QRUOV_L== 3)
 #  define overflow_DELTA 1
 #elif (QRUOV_L==10)
