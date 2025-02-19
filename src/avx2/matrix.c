@@ -150,6 +150,7 @@ void VECTOR_M_dot_VECTOR_M (
     T[i-QRUOV_L+QRUOV_fe] += QRUOV_fc  * T[i] ;
   }
 
+  // TODO: this can be optimized
   for(int i = 0; i < QRUOV_L; i++) C[i] = (Fq)(T[i] % QRUOV_q) ;
 }
 
@@ -162,6 +163,7 @@ void VECTOR_V_MUL_SYMMETRIC_MATRIX_VxV(const VECTOR_V A, const MATRIX_VxV B, VEC
   VECTOR_V_CLEAR_TAIL(C) ;
 }
 
+/// TODO to optimize this, we need to circument the padding in each
 void MATRIX_TRANSPOSE_VxM(const MATRIX_VxM A, MATRIX_MxV C){
   for(int i=0;i<QRUOV_V;i++){
     for(int k=0;k<QRUOV_L;k++){

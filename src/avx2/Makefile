@@ -1,7 +1,7 @@
 PLATFORM=avx2
-CC=gcc
-CFLAGS=-march=native -mtune=native -O3 -fomit-frame-pointer -fwrapv -fPIC -fPIE -fopenmp -Wno-deprecated-declarations -Wno-unused-result # -ggdb3 # -DQRUOV_PRG_SHAKE
-LDFLAGS=-lcrypto -Wl,-Bstatic -lcrypto -Wl,-Bdynamic -lm
+CFLAGS=-mavx2 -mavx -mbmi -mbmi2 -march=native -mtune=native -O3 -fomit-frame-pointer -fwrapv -fPIC -fPIE -Wno-deprecated-declarations -Wno-unused-result -DQRUOV_HASH_LEGACY # -ggdb3 # -DQRUOV_PRG_SHAKE
+#LDFLAGS=-lcrypto -lm
+LDFLAGS=-lcrypto -Wl,-Bdynamic -lm
 # CFLAGS=-march=native -mtune=native -O3 -fwrapv -fPIC -fPIE -fopenmp -Wno-deprecated-declarations -Wno-unused-result -pg -g # -ggdb3
 # LDFLAGS=-lcrypto -Wl,-Bstatic -lcrypto -Wl,-Bdynamic -lm -pg -g
 OBJS=Fql.o PQCgenKAT_sign.o qruov.o rng.o sign.o matrix.o mgf.o

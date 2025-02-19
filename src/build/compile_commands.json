@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/Fql.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/Fql.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/Fql.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/Fql.c.o"
+},
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/mgf.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/mgf.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/mgf.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/mgf.c.o"
+},
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/qruov.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/qruov.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/qruov.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/qruov.c.o"
+},
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/rng.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/rng.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/rng.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/rng.c.o"
+},
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/sign.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/sign.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/sign.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/sign.c.o"
+},
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/matrix.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/matrix.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/matrix.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/matrix.c.o"
+},
+{
+  "directory": "/home/duda/Downloads/crypto/schemes/qruov/src/build",
+  "command": "/nix/store/lzf0lgmmvjsgp2dik3vwslg7605k6bj4-clang-wrapper-18.1.8/bin/clang  -I/home/duda/Downloads/crypto/schemes/qruov/src/avx -DNDEBUG -O3 -Wall -Wextra -Wpedantic -mavx2 -mavx -march=native -mtune=native -ftree-vectorize -flto  -fomit-frame-pointer -fwrapv -fPIC -fPIE  -Wno-type-limits -DQRUOV_HASH_LEGACY  -std=gnu99 -DQRUOV_q=127 -DQRUOV_L=3 -DQRUOV_v=156 -DQRUOV_m=54 -DQRUOV_fc=1 -DQRUOV_fe=1 -DQRUOV_fc0=1 -DQRUOV_PLATFORM=avx2a -DQRUOV_security_strength_category=1 -o CMakeFiles/qruov_nist.dir/avx2/PQCgenKAT_sign.c.o -c /home/duda/Downloads/crypto/schemes/qruov/src/avx2/PQCgenKAT_sign.c",
+  "file": "/home/duda/Downloads/crypto/schemes/qruov/src/avx2/PQCgenKAT_sign.c",
+  "output": "CMakeFiles/qruov_nist.dir/avx2/PQCgenKAT_sign.c.o"
+}
+]
