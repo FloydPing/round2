@@ -1,4 +1,0 @@
-/home/duda/Downloads/crypto/schemes/qruov/src/build/CMakeFiles/qruov_nist.dir
-/home/duda/Downloads/crypto/schemes/qruov/src/build/CMakeFiles/test.dir
-/home/duda/Downloads/crypto/schemes/qruov/src/build/CMakeFiles/edit_cache.dir
-/home/duda/Downloads/crypto/schemes/qruov/src/build/CMakeFiles/rebuild_cache.dir
